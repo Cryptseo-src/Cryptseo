@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Cryptseo
+Comment=Cryptseo P2P Cryptocurrency
+Exec=cryptseo-qt %u
+Terminal=false
+Type=Application
+Icon=cryptseo128
+MimeType=x-scheme-handler/cryptseo;
+Categories=Office;Finance;
+Name[en_AU]=Cryptseo

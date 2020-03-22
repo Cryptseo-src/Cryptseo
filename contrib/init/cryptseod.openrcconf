@@ -1,0 +1,26 @@
+# /etc/conf.d/cryptseod: config file for /etc/init.d/cryptseod
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/cryptseo/cryptseo.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/cryptseod"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/cryptseod.pid"
+
+# Where to write cryptseod data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/cryptseod"
+
+# User and group to own cryptseod process
+#BITCOIND_USER="cryptseo"
+#BITCOIND_GROUP="cryptseo"
+
+# Path to cryptseod executable
+#BITCOIND_BIN="/usr/bin/cryptseod"
+
+# Nice value to run cryptseod under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
